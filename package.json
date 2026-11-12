@@ -1,0 +1,46 @@
+{
+  "name": "ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config web/vite.config.ts",
+    "build": "npm run typecheck && vite build --config web/vite.config.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint web/src",
+    "test:e2e": "playwright test",
+    "test:mcp": "node scripts/mcp-smoke.mjs",
+    "test:mcp:http": "go build -o .cache/httpbridge ./cmd/httpbridge && node scripts/http-mcp-smoke.mjs",
+    "test:assistant": "node --experimental-strip-types --test scripts/assistant-test.mjs",
+    "test:assistant:ui": "playwright test e2e/assistant-ui.spec.ts",
+    "test:media:ui": "playwright test e2e/media-ui.spec.ts"
+  },
+  "dependencies": {
+    "react": "https://registry.npmjs.org/react/-/react-19.2.7.tgz",
+    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz",
+    "lucide-react": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.523.0.tgz",
+    "@radix-ui/react-dialog": "https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.19.tgz"
+  },
+  "devDependencies": {
+    "typescript": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+    "@types/react": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+    "@types/react-dom": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+    "vite": "https://registry.npmjs.org/vite/-/vite-6.4.3.tgz",
+    "tailwindcss": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz",
+    "postcss": "https://registry.npmjs.org/postcss/-/postcss-8.5.30.tgz",
+    "autoprefixer": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.0.tgz",
+    "eslint": "https://registry.npmjs.org/eslint/-/eslint-9.39.5.tgz",
+    "@eslint/js": "https://registry.npmjs.org/@eslint/js/-/js-9.39.5.tgz",
+    "typescript-eslint": "https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.61.0.tgz",
+    "@playwright/test": "https://registry.npmjs.org/@playwright/test/-/test-1.61.1.tgz",
+    "@modelcontextprotocol/sdk": "https://registry.npmjs.org/@modelcontextprotocol/sdk/-/sdk-1.32.1.tgz"
+  },
+  "overrides": {
+    "@typescript-eslint/project-service": "https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.61.0.tgz",
+    "@typescript-eslint/tsconfig-utils": "https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.61.0.tgz",
+    "brace-expansion": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.6.tgz",
+    "minimatch": "https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz",
+    "ignore": "https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz",
+    "qs": "https://registry.npmjs.org/qs/-/qs-6.16.0.tgz"
+  }
+}

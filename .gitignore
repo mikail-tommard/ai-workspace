@@ -1,0 +1,23 @@
+.cache/
+node_modules/
+web/dist/*
+!web/dist/.keep
+ai-workspace
+.ai-workspace/
+test-results/
+playwright-report/
+*.db
+*.db-shm
+*.db-wal
+.env
+
+.playwright-mcp/
+
+# Personal/generated workspace exports and local credentials.
+output/
+.DS_Store
+.env.*
+!.env.example
+*.db.lock
+*.pem
+*.key
