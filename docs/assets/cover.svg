@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Forma — AI Workspace</title>
+  <desc id="desc">Идеи обретают форму. Локальное рабочее пространство для Codex и MCP: задачи, графики, документы.</desc>
+  <rect width="1440" height="480" rx="24" fill="#173C31"/>
+  <path d="M906 0V480M1222 0V480M0 394H1440" stroke="#2D5144"/>
+  <circle cx="1283" cy="77" r="183" stroke="#355C4B"/>
+  <circle cx="1283" cy="77" r="244" stroke="#284A3D"/>
+  <rect x="64" y="51" width="42" height="42" rx="13" fill="#D6E5BE"/>
+  <path d="M76 82V62H96V67H82V72H93V77H82V82Z" fill="#173C31"/>
+  <text x="122" y="84" font-family="Georgia, 'Times New Roman', serif" font-size="43" fill="#F6F4EC" letter-spacing="-2">forma</text>
+  <text x="64" y="143" font-family="Arial, sans-serif" font-size="12" letter-spacing="3" fill="#B1C9B7">AI WORKSPACE / MODEL CONTEXT PROTOCOL</text>
+  <text x="60" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="70" letter-spacing="-2" fill="#F6F4EC">Идеи обретают</text>
+  <text x="60" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="70" letter-spacing="-2" fill="#D6E5BE">форму.</text>
+  <text x="65" y="353" font-family="Arial, sans-serif" font-size="19" fill="#B8CBBF">Ваш Codex. Живая панель. Данные на вашем компьютере.</text>
+  <circle cx="70" cy="437" r="4" fill="#D6E5BE"/>
+  <text x="85" y="442" font-family="Arial, sans-serif" font-size="14" fill="#D6E5BE">28 инструментов</text>
+  <circle cx="266" cy="437" r="4" fill="#D6E5BE"/>
+  <text x="281" y="442" font-family="Arial, sans-serif" font-size="14" fill="#D6E5BE">15 типов виджетов</text>
+  <circle cx="474" cy="437" r="4" fill="#D6E5BE"/>
+  <text x="489" y="442" font-family="Arial, sans-serif" font-size="14" fill="#D6E5BE">Один Go-процесс</text>
+  <g transform="translate(932 69)">
+    <rect width="422" height="229" rx="17" fill="#F6F4EC"/>
+    <circle cx="25" cy="26" r="4" fill="#2C795D"/>
+    <text x="41" y="31" font-family="Arial, sans-serif" font-size="12" fill="#426052" letter-spacing="1">ГРАФИК ФУНКЦИИ</text>
+    <path d="M30 73H390M30 117H390M30 161H390M30 202H390" stroke="#DDDCD1" stroke-dasharray="3 5"/>
+    <path d="M32 77C101 77 112 192 178 192C249 192 276 65 331 65C355 65 375 84 390 91" stroke="#2C795D" stroke-width="3"/>
+    <circle cx="178" cy="192" r="5" fill="#2C795D"/>
+    <circle cx="331" cy="65" r="5" fill="#2C795D"/>
+  </g>
+  <g transform="translate(1002 320)">
+    <rect width="352" height="112" rx="17" fill="#D6E5BE"/>
+    <text x="25" y="32" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.4" fill="#426052">МАТЕМАТИКА</text>
+    <text x="25" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#173C31">x² − 5x + 6 = 0</text>
+    <circle cx="315" cy="67" r="15" fill="#27715E"/>
+    <path d="M308 67L313 72L322 62" stroke="#F6F4EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
